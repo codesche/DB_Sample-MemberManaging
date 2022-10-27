@@ -21,11 +21,11 @@ create table member_detail
 
 select * from member_detail;
 
-insert into member (member_type, user_id, password, name) VALUE ('email', 'kwon@gmail.com', 7777, '원균');
+insert into member (member_type, user_id, password, name) VALUE ('email', 'kwon@gmail.com', 7777, '민성');
 insert into member (member_type, user_id, password, name) VALUE ('email', 'sslee@daum.net', 1592, '이순신');
-insert into member (member_type, user_id, password, name) VALUE ('email', 'test@naver.com', 1234, '박규태');
+insert into member (member_type, user_id, password, name) VALUE ('email', 'test@naver.com', 1234, '철수');
 insert into member (member_type, user_id, name) VALUE ('email', 'syryu@nate.com', '류성용');
-insert into member (member_type, user_id, name) VALUE ('email', 'test2@naver.com', '박규태');
+insert into member (member_type, user_id, name) VALUE ('email', 'test2@naver.com', '원균');
 
 # !-------------------------------------------------------------------------------------------------------------
 insert into member_detail (member_type, user_id, mobile_no, marketing_yn, register_date) value ('email', 'kwon@gmail.com', 01033333333, true, now());
