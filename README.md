@@ -1,2 +1,2 @@
-# SQL_SampleSet
-SQL_SampleSet
+# SQL_SampleFile
+Basic SQL Sample File(.sql) Repository
